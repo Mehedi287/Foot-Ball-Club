@@ -261,7 +261,8 @@ for mobile device
     }
     form{
       width: 250px;
-      height: 350px;
+      height: 400px;
+      margin-bottom: 50px;
     }
 }
 /*------------------
@@ -313,6 +314,7 @@ responsive for tablet
         }  
         .join-us{
           margin-left: 140px;
+          margin-bottom: 50px;
         } 
 }
 
