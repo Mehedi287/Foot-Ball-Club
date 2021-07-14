@@ -7,6 +7,7 @@
   --------------- */
  body{
     font-family: 'Fira Sans Condensed', sans-serif;
+    
  }
  .container{
     width: 1160px;
@@ -80,10 +81,14 @@
   main styles
   -------------------- */
   .players{
+      width: 1050px;
       margin-top: 70px;
       display: grid;
       grid-template-columns: repeat(3,1fr);
+      column-gap: 30px;
       row-gap: 27px;
+      margin-left:180px ;
+      margin-right:210px ;
   }
 .player{
     width: 300px;
@@ -100,5 +105,59 @@
 .player-addres{
     color: #6C6C6C;
 }
-
+/*-------------------------
+ hilight sectons styles
+ -------------------------- */
+ .hilight-section{
+     display: flex;
+ }
+ .hilight{
+     margin: 224px 76px 0px 182px;
+}
+.hilight h1{
+    font-weight: 700;
+    font-size: 48px;
+}
+.hilight p{
+    color: #6C6C6C;
+    width: 404px;
+    margin-top: 10px;
+}
+.hilight-img img{
+     width: 567px;
+     height: 427px;
+     margin-top: 165px;
+     margin-right: 149px;
+     margin-bottom: 158px;
+}
+/* ------------
+footer styles
+-------------- */
+.footer{
+    width: 483.87px;
+    height: 110px;
+    margin-left: 475px;
+    margin-right: 481.13px;
+    margin-bottom: 63px;
+    
+}
+.footer img{
+    width: 100%;
+}
+.socile-icon{
+    margin:20px 156.94px ;
+}
+.socile-icon i{
+    height: 32px;
+    width: 32px;
+     
+}
+.copy-roght{
+     height: 60px;
+    
+}
+.copy-roght p{
+    text-align: center;
+   
+}
 
