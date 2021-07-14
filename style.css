@@ -150,6 +150,7 @@ footer styles
   .socile-icon i{
     height: 32px;
     width: 32px;
+    
 }
   .copy-roght{
     height: 60px;
@@ -183,10 +184,33 @@ for mobile device
     }
     .players{
         grid-template-columns: repeat(1,1fr);
-        width: 600px;
+        width: 400px;
+        margin: 0;
+        
     }
     .player{
+         margin-left: 10px;
+    }
+    .hilight-section{
+        display: block;
+    }
+    .hilight{
+        margin: 0;
+    }
+    .hilight p{
+        width: 300px;
+    }
+    .hilight-img img{width: 300px;
+    }
+    .footer{
         margin: 0 auto;
+        width: 300px;
+    }
+    .socile-icon{
+        margin:0;
+    }
+    .socile-icon a{
+        text-align: center;
     }
 }
 
