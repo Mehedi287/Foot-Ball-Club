@@ -1,0 +1,49 @@
+/*----------------
+ google fonts 
+ -----------------*/
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ /*----------------
+  common styles
+  --------------- */
+ body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+ }
+ /*----------------
+  header styles 
+  ----------------*/
+  header{
+      background-color: #2D25A0;
+      width: 100%;
+  }
+  /* navicaton styles */
+  nav{
+      display: flex;
+      justify-content: space-between;
+      height: 35px;
+      width: 1160px;
+      margin: 0 auto;
+      padding: 10px;
+  }
+  .menu-bar{
+      margin-top: 10px;
+  }
+  .menu-bar a{
+      text-decoration: none;
+      font-weight: 500;
+      color: white;
+      margin-right: 15px;
+  }
+  .login{
+       width: 123px;
+      background-color: #E02C6D;
+      ;
+      padding: 10px;
+  }
+.login a{
+    color: white;
+    text-decoration: none;
+   display: flex;
+   justify-content: space-between;
+}
+ 
+
