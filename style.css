@@ -25,9 +25,11 @@
       justify-content: space-between;
       height: 35px;
       padding: 10px;
+      
   }
   .menu-bar{
       margin-top: 10px;
+      
   }
   .menu-bar a{
       text-decoration: none;
@@ -39,6 +41,7 @@
        width: 123px;
       background-color: #E02C6D;
       padding: 10px;
+       
   }
   .login:hover{
       background-color: violet;
@@ -58,15 +61,44 @@
   }
   .section-title{
       width: 455px;
+      
   }
 .section-title h1 {
      color: white;
      font-size: 64px;
      font-weight: 700;
      line-height: 80px;
+     margin-top: 113px;
     }
  .secton-thumble img{
       width: 556px;
+      height: 438px;
+      margin-top: 45px;
+      margin-bottom: 100px;
  }
+ /*------------------
+  main styles
+  -------------------- */
+  .players{
+      margin-top: 70px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      row-gap: 27px;
+  }
+.player{
+    width: 300px;
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.player-thumble img{
+    width: 100%;
+}
+.player-name{
+    font-size: 28px;
+    font-weight: 700;
+}
+.player-addres{
+    color: #6C6C6C;
+}
 
 
