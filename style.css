@@ -64,7 +64,7 @@
     justify-content: space-between;
 }
   .section-title{
-     width: 455px;
+     width: 40%;
 }
   .section-title h1 {
     color: white;
@@ -75,7 +75,6 @@
 }
   .secton-thumble img{
     width: 556px;
-    height: 438px;
     margin-top: 45px;
     margin-bottom: 100px;
  }
@@ -158,5 +157,36 @@ footer styles
 }
   .copy-roght p{
     text-align: center;
+}
+
+/* ---------------
+responsive styles
+----------------  */
+/* ---------------
+for mobile device
+-------------------- */
+@media only screen and (max-width:688px){ .container{
+    width: 600px;
+   
+    }
+    .nav{
+        display: none;
+    }
+    .head-section{
+        flex-direction: column;
+        row-gap: 100px;
+    }
+    .secton-thumble img{
+        width: 350px;
+    }
+    .section-title{width: 30%;
+    }
+    .players{
+        grid-template-columns: repeat(1,1fr);
+        width: 600px;
+    }
+    .player{
+        margin: 0 auto;
+    }
 }
 
