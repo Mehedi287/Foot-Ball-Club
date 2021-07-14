@@ -18,6 +18,7 @@
   header{
     background-color: #2D25A0;
     width: 100%;
+    
   }
   /* navicaton styles */
   .nav{
@@ -166,7 +167,12 @@ responsive styles
 /* ---------------
 for mobile device
 -------------------- */
-@media only screen and (max-width:688px){ .container{
+@media only screen and (max-width:688px){ 
+    
+    
+    
+    
+    .container{
     width: 600px;
    
     }
@@ -181,6 +187,7 @@ for mobile device
         width: 350px;
     }
     .section-title{width: 30%;
+        margin-left: 20px;
     }
     .players{
         grid-template-columns: repeat(1,1fr);
@@ -212,5 +219,53 @@ for mobile device
     .socile-icon a{
         text-align: center;
     }
+}
+/*------------------
+responsive for tablet
+-------------------- */
+@media only screen and 
+(min-width:688px) and (max-width:992px) {
+    .container{
+        width: 950px;
+        margin: 0 auto;
+        } 
+        .nav{
+            display: none;
+        }
+        .head-section{
+            flex-direction: column;
+            row-gap: 100px;
+        }
+        .secton-thumble img{
+            width: 450px;
+            margin-left: 166px;
+        }
+        .section-title{width: 40%;
+            margin-left: 200px;
+        }
+        .players{
+            grid-template-columns: repeat(2,1fr);
+            width: 900px;
+            margin: 0;
+            
+        }
+        .player{
+            margin-left:80px;
+        }
+        header{
+            margin-left: 95px;
+        }
+        .hilight-section{
+            display: block;
+        }
+        .hilight{
+            display: block;}
+        .hilight-img img{
+            width: 700px;
+         margin-left: 150px;} 
+         .footer{
+            margin: 0 auto;
+            width: 500px;
+        }   
 }
 
