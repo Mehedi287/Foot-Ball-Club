@@ -49,6 +49,7 @@
 }
   .login:hover{
     background-color: violet;
+    box-shadow:-2px -1px 13px #421425; ;
 }
   .login a{
     margin-top:10px;
@@ -132,7 +133,37 @@
     margin-right: 149px;
     margin-bottom: 158px;
 }
-/* ------------
+/*-------------------
+form styles 
+-------------------*/
+.join-us{
+   margin-left:857px;
+}
+form{
+    border: 1px solid rosybrown;
+    height: 350px ;
+    width: 350px;
+    padding: 40px;
+    margin-right: 0;
+    border-radius: 20px;
+     
+}
+form:hover{
+  box-shadow:-2px -1px 13px #e02c6d; ;
+}
+
+
+}
+.fast-chiled{
+  margin-top: 20px;
+}
+
+form input{
+    margin-bottom: 50px;
+}
+ 
+
+    /* ------------
 footer styles
 -------------- */
   .footer{
@@ -174,6 +205,7 @@ for mobile device
     
     .container{
     width: 600px;
+    margin-left: 20px;
    
     }
     .nav{
@@ -218,6 +250,13 @@ for mobile device
     }
     .socile-icon a{
         text-align: center;
+    }
+    .join-us{
+      margin-left: 50px;
+    }
+    form{
+      width: 300px;
+      height: 350px;
     }
 }
 /*------------------
@@ -266,6 +305,9 @@ responsive for tablet
          .footer{
             margin: 0 auto;
             width: 500px;
-        }   
+        }  
+        .join-us{
+          margin-left: 140px;
+        } 
 }
 
