@@ -204,7 +204,7 @@ for mobile device
     
     
     .container{
-    width: 600px;
+    width: 500px;
     margin-left: 20px;
    
     }
@@ -234,12 +234,13 @@ for mobile device
         display: block;
     }
     .hilight{
+      width: 300px;
         margin: 0;
+        margin-left: 30px;
     }
-    .hilight p{
-        width: 300px;
-    }
-    .hilight-img img{width: 300px;
+    .hilight-img img{
+      width: 300px;
+      margin-left: 30px;
     }
     .footer{
         margin: 0 auto;
@@ -255,7 +256,7 @@ for mobile device
       margin-left: 50px;
     }
     form{
-      width: 300px;
+      width: 250px;
       height: 350px;
     }
 }
