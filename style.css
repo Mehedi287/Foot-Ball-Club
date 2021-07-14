@@ -8,6 +8,10 @@
  body{
     font-family: 'Fira Sans Condensed', sans-serif;
  }
+ .container{
+    width: 1160px;
+    margin: 0 auto;
+ }
  /*----------------
   header styles 
   ----------------*/
@@ -16,12 +20,10 @@
       width: 100%;
   }
   /* navicaton styles */
-  nav{
+.nav{
       display: flex;
       justify-content: space-between;
       height: 35px;
-      width: 1160px;
-      margin: 0 auto;
       padding: 10px;
   }
   .menu-bar{
@@ -36,14 +38,35 @@
   .login{
        width: 123px;
       background-color: #E02C6D;
-      ;
       padding: 10px;
   }
+  .login:hover{
+      background-color: violet;
+}
 .login a{
     color: white;
     text-decoration: none;
    display: flex;
    justify-content: space-between;
 }
- 
+/*-----------------------
+ head secstions styles 
+ ----------------------*/
+  .head-section{
+      display: flex;
+      justify-content: space-between;
+  }
+  .section-title{
+      width: 455px;
+  }
+.section-title h1 {
+     color: white;
+     font-size: 64px;
+     font-weight: 700;
+     line-height: 80px;
+    }
+ .secton-thumble img{
+      width: 556px;
+ }
+
 
